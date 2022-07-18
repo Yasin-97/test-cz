@@ -43,7 +43,22 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+      "disableScopeLowerCase": false,
+            "disableSubjectLowerCase": false,
+            "maxHeaderWidth": 100,
+            "maxLineWidth": 100,
+            "defaultType": "",
+            "defaultScope": "appp.ja",
+            "defaultSubject": "",
+            "defaultBody": "",
+            "defaultIssues": "",
+            "types": {
+              "feat": {
+                "description": "A new feature",
+                "title": "Features"
+              }
+            }
     }
   }
 }
